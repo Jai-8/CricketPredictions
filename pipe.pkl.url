@@ -1,0 +1,11 @@
+[InternetShortcut]
+URL=http://localhost:8888/edit/pipe.pkl
+mkdir -p ~/.streamlit/
+
+echo "\
+[server]\n\
+port = $PORT\n\
+enableCORS = false\n\
+headless = true\n\
+\n\
+" > ~/.streamlit/config.toml
